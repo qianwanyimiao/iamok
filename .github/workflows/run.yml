@@ -1,14 +1,6 @@
 name: iamok
 
-on:
-  push:
-    branches:
-      - main
-
-  workflow_dispatch:
-
-  schedule:
-    - cron: '0 22 * * *'
+on: workflow_dispatch
 
 jobs:
   iamok:
